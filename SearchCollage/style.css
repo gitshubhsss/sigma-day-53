@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    display: flex;
+    background-color: aliceblue;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+
+}
+.collage-list{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32rem;
+}
+li{
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+input{
+    flex: 1;
+    width: 19rem;
+    padding:0.5rem;
+    border: 2px solid grey;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.1rem;
+}
+button{
+    padding: 0.6rem;
+    width: 6rem;
+    position: relative;
+    left: 0.3rem;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .container{
+        top: 3rem;
+    }
+    .search{
+        width: 100%;
+       
+    }
+    .collage-list{
+        width: 95%;
+    }
+   
+   button{
+    width: 25%;
+   }
+}
